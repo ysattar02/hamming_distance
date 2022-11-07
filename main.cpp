@@ -12,16 +12,6 @@ int main() {
             counter ++;
         }
     }
-    cout << counter << endl;
-    int counter_two = 0;
-    string bin_three = "FEDCBA98765432100123456789ABCDEF";
-    string bin_four = "FEDCAB9875643210F2134567890BCDEF";
-    for (int i = 0; i < bin_three.length(); i++){
-        if (bin_three[i] != bin_four[i]){
-            counter_two ++;
-        }
-    }
-    cout << counter_two << endl;
-
+    cout << "The Hamming Distance is: "  << counter << endl;
     return 0;
 }
